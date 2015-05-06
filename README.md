@@ -1,7 +1,7 @@
 # -VP-TicTacToe-131507-131098-
 Proektna Zadacha po Vizuelno Programiranje 2015
 
-![alt tag](https://raw.github.com/username/projectname/branch/path/to/MainMenu.png)
+![alt tag](https://raw.githubusercontent.com/KristinaCvetanovska/-VP-TicTacToe-131507-131098-/master/MainMenu.PNG)
 
 Целта на оваа проектна задача е имплементација на играта Х/0 (Икс-Точка). Оваа игра се игра на табла со 9 полиња (3х3 матрица), така што двајца играчи наизменично одбираат поле каде го поставуваат својот знак (Х или 0). Победникот е оној кој прв ќе нареди три свои знаци (Х или 0) во линија.
 
