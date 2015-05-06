@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddOnePlayer));
             this.label1 = new System.Windows.Forms.Label();
             this.tbPlayer = new System.Windows.Forms.TextBox();
             this.btnStart = new System.Windows.Forms.Button();
@@ -58,7 +59,7 @@
             // 
             // btnStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(227, 116);
+            this.btnStart.Location = new System.Drawing.Point(227, 127);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(117, 32);
             this.btnStart.TabIndex = 2;
@@ -69,9 +70,9 @@
             // btnCancel
             // 
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel.Location = new System.Drawing.Point(35, 116);
+            this.btnCancel.Location = new System.Drawing.Point(29, 127);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(99, 32);
+            this.btnCancel.Size = new System.Drawing.Size(117, 32);
             this.btnCancel.TabIndex = 3;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -112,6 +113,7 @@
             this.AcceptButton = this.btnStart;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.CancelButton = this.btnCancel;
             this.ClientSize = new System.Drawing.Size(379, 171);
             this.Controls.Add(this.nudGames);
@@ -120,8 +122,11 @@
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.tbPlayer);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(397, 216);
+            this.MinimumSize = new System.Drawing.Size(397, 216);
             this.Name = "AddOnePlayer";
-            this.Text = "AddOnePlayer";
+            this.Text = "Add One Player";
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudGames)).EndInit();
             this.ResumeLayout(false);

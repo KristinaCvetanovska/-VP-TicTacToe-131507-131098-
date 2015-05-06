@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.btnPvsPC = new System.Windows.Forms.Button();
             this.btnPvsP = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -61,11 +62,13 @@
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::TicTacToe.Properties.Resources.TicTacToe_Bluetooth_Icon;
             this.ClientSize = new System.Drawing.Size(511, 512);
             this.Controls.Add(this.btnPvsP);
             this.Controls.Add(this.btnPvsPC);
             this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximumSize = new System.Drawing.Size(529, 557);
             this.MinimumSize = new System.Drawing.Size(529, 557);

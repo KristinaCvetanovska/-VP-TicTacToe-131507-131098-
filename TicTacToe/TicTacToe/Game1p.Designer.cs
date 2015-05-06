@@ -28,18 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Game1p));
             this.lbTurn = new System.Windows.Forms.Label();
-            this.pbTurn = new System.Windows.Forms.PictureBox();
-            this.pb11 = new System.Windows.Forms.PictureBox();
-            this.pb00 = new System.Windows.Forms.PictureBox();
-            this.pb01 = new System.Windows.Forms.PictureBox();
-            this.pb02 = new System.Windows.Forms.PictureBox();
-            this.pb10 = new System.Windows.Forms.PictureBox();
-            this.pb12 = new System.Windows.Forms.PictureBox();
-            this.pb20 = new System.Windows.Forms.PictureBox();
-            this.pb21 = new System.Windows.Forms.PictureBox();
-            this.pb22 = new System.Windows.Forms.PictureBox();
             this.lplayerscore = new System.Windows.Forms.Label();
             this.lcomputerscore = new System.Windows.Forms.Label();
             this.ldraws = new System.Windows.Forms.Label();
@@ -47,31 +37,29 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.lTotal = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbTurn)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb00)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb01)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb02)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb21)).BeginInit();
+            this.pb22 = new System.Windows.Forms.PictureBox();
+            this.pb21 = new System.Windows.Forms.PictureBox();
+            this.pb20 = new System.Windows.Forms.PictureBox();
+            this.pb12 = new System.Windows.Forms.PictureBox();
+            this.pb10 = new System.Windows.Forms.PictureBox();
+            this.pb02 = new System.Windows.Forms.PictureBox();
+            this.pb01 = new System.Windows.Forms.PictureBox();
+            this.pb00 = new System.Windows.Forms.PictureBox();
+            this.pb11 = new System.Windows.Forms.PictureBox();
+            this.pbTurn = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pb22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb02)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb01)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb00)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbTurn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.BackgroundImage = global::TicTacToe.Properties.Resources.images;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(568, 515);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
             // 
             // lbTurn
             // 
@@ -80,105 +68,6 @@
             this.lbTurn.Name = "lbTurn";
             this.lbTurn.Size = new System.Drawing.Size(0, 17);
             this.lbTurn.TabIndex = 4;
-            // 
-            // pbTurn
-            // 
-            this.pbTurn.Location = new System.Drawing.Point(12, 533);
-            this.pbTurn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pbTurn.Name = "pbTurn";
-            this.pbTurn.Size = new System.Drawing.Size(100, 71);
-            this.pbTurn.TabIndex = 3;
-            this.pbTurn.TabStop = false;
-            // 
-            // pb11
-            // 
-            this.pb11.Location = new System.Drawing.Point(240, 207);
-            this.pb11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pb11.Name = "pb11";
-            this.pb11.Size = new System.Drawing.Size(123, 132);
-            this.pb11.TabIndex = 5;
-            this.pb11.TabStop = false;
-            this.pb11.Click += new System.EventHandler(this.pb11_Click);
-            // 
-            // pb00
-            // 
-            this.pb00.Location = new System.Drawing.Point(59, 38);
-            this.pb00.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pb00.Name = "pb00";
-            this.pb00.Size = new System.Drawing.Size(123, 132);
-            this.pb00.TabIndex = 6;
-            this.pb00.TabStop = false;
-            this.pb00.Click += new System.EventHandler(this.pb00_Click);
-            // 
-            // pb01
-            // 
-            this.pb01.Location = new System.Drawing.Point(240, 38);
-            this.pb01.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pb01.Name = "pb01";
-            this.pb01.Size = new System.Drawing.Size(123, 132);
-            this.pb01.TabIndex = 7;
-            this.pb01.TabStop = false;
-            this.pb01.Click += new System.EventHandler(this.pb01_Click);
-            // 
-            // pb02
-            // 
-            this.pb02.Location = new System.Drawing.Point(415, 38);
-            this.pb02.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pb02.Name = "pb02";
-            this.pb02.Size = new System.Drawing.Size(123, 132);
-            this.pb02.TabIndex = 8;
-            this.pb02.TabStop = false;
-            this.pb02.Click += new System.EventHandler(this.pb02_Click);
-            // 
-            // pb10
-            // 
-            this.pb10.Location = new System.Drawing.Point(59, 207);
-            this.pb10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pb10.Name = "pb10";
-            this.pb10.Size = new System.Drawing.Size(123, 132);
-            this.pb10.TabIndex = 9;
-            this.pb10.TabStop = false;
-            this.pb10.Click += new System.EventHandler(this.pb10_Click);
-            // 
-            // pb12
-            // 
-            this.pb12.Location = new System.Drawing.Point(415, 207);
-            this.pb12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pb12.Name = "pb12";
-            this.pb12.Size = new System.Drawing.Size(123, 132);
-            this.pb12.TabIndex = 10;
-            this.pb12.TabStop = false;
-            this.pb12.Click += new System.EventHandler(this.pb12_Click);
-            // 
-            // pb20
-            // 
-            this.pb20.Location = new System.Drawing.Point(59, 377);
-            this.pb20.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pb20.Name = "pb20";
-            this.pb20.Size = new System.Drawing.Size(123, 132);
-            this.pb20.TabIndex = 11;
-            this.pb20.TabStop = false;
-            this.pb20.Click += new System.EventHandler(this.pb20_Click);
-            // 
-            // pb21
-            // 
-            this.pb21.Location = new System.Drawing.Point(240, 377);
-            this.pb21.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pb21.Name = "pb21";
-            this.pb21.Size = new System.Drawing.Size(123, 132);
-            this.pb21.TabIndex = 12;
-            this.pb21.TabStop = false;
-            this.pb21.Click += new System.EventHandler(this.pb21_Click);
-            // 
-            // pb22
-            // 
-            this.pb22.Location = new System.Drawing.Point(415, 377);
-            this.pb22.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pb22.Name = "pb22";
-            this.pb22.Size = new System.Drawing.Size(123, 132);
-            this.pb22.TabIndex = 13;
-            this.pb22.TabStop = false;
-            this.pb22.Click += new System.EventHandler(this.pb22_Click);
             // 
             // lplayerscore
             // 
@@ -237,11 +126,123 @@
             // lTotal
             // 
             this.lTotal.AutoSize = true;
-            this.lTotal.Location = new System.Drawing.Point(317, 533);
+            this.lTotal.Location = new System.Drawing.Point(263, 533);
             this.lTotal.Name = "lTotal";
             this.lTotal.Size = new System.Drawing.Size(46, 17);
             this.lTotal.TabIndex = 20;
             this.lTotal.Text = "label1";
+            // 
+            // pb22
+            // 
+            this.pb22.Location = new System.Drawing.Point(415, 377);
+            this.pb22.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pb22.Name = "pb22";
+            this.pb22.Size = new System.Drawing.Size(123, 132);
+            this.pb22.TabIndex = 13;
+            this.pb22.TabStop = false;
+            this.pb22.Click += new System.EventHandler(this.pb22_Click);
+            // 
+            // pb21
+            // 
+            this.pb21.Location = new System.Drawing.Point(240, 377);
+            this.pb21.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pb21.Name = "pb21";
+            this.pb21.Size = new System.Drawing.Size(123, 132);
+            this.pb21.TabIndex = 12;
+            this.pb21.TabStop = false;
+            this.pb21.Click += new System.EventHandler(this.pb21_Click);
+            // 
+            // pb20
+            // 
+            this.pb20.Location = new System.Drawing.Point(59, 377);
+            this.pb20.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pb20.Name = "pb20";
+            this.pb20.Size = new System.Drawing.Size(123, 132);
+            this.pb20.TabIndex = 11;
+            this.pb20.TabStop = false;
+            this.pb20.Click += new System.EventHandler(this.pb20_Click);
+            // 
+            // pb12
+            // 
+            this.pb12.Location = new System.Drawing.Point(415, 207);
+            this.pb12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pb12.Name = "pb12";
+            this.pb12.Size = new System.Drawing.Size(123, 132);
+            this.pb12.TabIndex = 10;
+            this.pb12.TabStop = false;
+            this.pb12.Click += new System.EventHandler(this.pb12_Click);
+            // 
+            // pb10
+            // 
+            this.pb10.Location = new System.Drawing.Point(59, 207);
+            this.pb10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pb10.Name = "pb10";
+            this.pb10.Size = new System.Drawing.Size(123, 132);
+            this.pb10.TabIndex = 9;
+            this.pb10.TabStop = false;
+            this.pb10.Click += new System.EventHandler(this.pb10_Click);
+            // 
+            // pb02
+            // 
+            this.pb02.Location = new System.Drawing.Point(415, 38);
+            this.pb02.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pb02.Name = "pb02";
+            this.pb02.Size = new System.Drawing.Size(123, 132);
+            this.pb02.TabIndex = 8;
+            this.pb02.TabStop = false;
+            this.pb02.Click += new System.EventHandler(this.pb02_Click);
+            // 
+            // pb01
+            // 
+            this.pb01.Location = new System.Drawing.Point(240, 38);
+            this.pb01.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pb01.Name = "pb01";
+            this.pb01.Size = new System.Drawing.Size(123, 132);
+            this.pb01.TabIndex = 7;
+            this.pb01.TabStop = false;
+            this.pb01.Click += new System.EventHandler(this.pb01_Click);
+            // 
+            // pb00
+            // 
+            this.pb00.Location = new System.Drawing.Point(59, 38);
+            this.pb00.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pb00.Name = "pb00";
+            this.pb00.Size = new System.Drawing.Size(123, 132);
+            this.pb00.TabIndex = 6;
+            this.pb00.TabStop = false;
+            this.pb00.Click += new System.EventHandler(this.pb00_Click);
+            // 
+            // pb11
+            // 
+            this.pb11.Location = new System.Drawing.Point(240, 207);
+            this.pb11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pb11.Name = "pb11";
+            this.pb11.Size = new System.Drawing.Size(123, 132);
+            this.pb11.TabIndex = 5;
+            this.pb11.TabStop = false;
+            this.pb11.Click += new System.EventHandler(this.pb11_Click);
+            // 
+            // pbTurn
+            // 
+            this.pbTurn.Location = new System.Drawing.Point(12, 533);
+            this.pbTurn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pbTurn.Name = "pbTurn";
+            this.pbTurn.Size = new System.Drawing.Size(100, 71);
+            this.pbTurn.TabIndex = 3;
+            this.pbTurn.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.BackgroundImage = global::TicTacToe.Properties.Resources.images;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(568, 515);
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
             // 
             // Game1p
             // 
@@ -267,20 +268,23 @@
             this.Controls.Add(this.lbTurn);
             this.Controls.Add(this.pbTurn);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MaximumSize = new System.Drawing.Size(610, 661);
+            this.MinimumSize = new System.Drawing.Size(610, 661);
             this.Name = "Game1p";
-            this.Text = "Game1p";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbTurn)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb00)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb01)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb02)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb21)).EndInit();
+            this.Text = "Player vs PC";
             ((System.ComponentModel.ISupportInitialize)(this.pb22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb02)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb01)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb00)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbTurn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -79,6 +79,9 @@
     <EmbeddedResource Include="AddOnePlayer.resx">
       <DependentUpon>AddOnePlayer.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AddTwoPlayers.af-ZA.resx">
+      <DependentUpon>AddTwoPlayers.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AddTwoPlayers.resx">
       <DependentUpon>AddTwoPlayers.cs</DependentUpon>
     </EmbeddedResource>

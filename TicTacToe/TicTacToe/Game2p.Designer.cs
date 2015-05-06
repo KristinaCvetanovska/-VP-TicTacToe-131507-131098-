@@ -28,7 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Game2p));
             this.label1 = new System.Windows.Forms.Label();
+            this.lplayer1score = new System.Windows.Forms.Label();
+            this.lplayer2score = new System.Windows.Forms.Label();
+            this.lplayer1 = new System.Windows.Forms.Label();
+            this.lplayer2 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.ldraws = new System.Windows.Forms.Label();
+            this.lTotal = new System.Windows.Forms.Label();
             this.pb22 = new System.Windows.Forms.PictureBox();
             this.pb21 = new System.Windows.Forms.PictureBox();
             this.pb20 = new System.Windows.Forms.PictureBox();
@@ -40,13 +48,6 @@
             this.pb11 = new System.Windows.Forms.PictureBox();
             this.pbTurn = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.lplayer1score = new System.Windows.Forms.Label();
-            this.lplayer2score = new System.Windows.Forms.Label();
-            this.lplayer1 = new System.Windows.Forms.Label();
-            this.lplayer2 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.ldraws = new System.Windows.Forms.Label();
-            this.lTotal = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pb22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb20)).BeginInit();
@@ -67,6 +68,69 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 17);
             this.label1.TabIndex = 2;
+            // 
+            // lplayer1score
+            // 
+            this.lplayer1score.AutoSize = true;
+            this.lplayer1score.Location = new System.Drawing.Point(533, 533);
+            this.lplayer1score.Name = "lplayer1score";
+            this.lplayer1score.Size = new System.Drawing.Size(46, 17);
+            this.lplayer1score.TabIndex = 12;
+            this.lplayer1score.Text = "label2";
+            // 
+            // lplayer2score
+            // 
+            this.lplayer2score.AutoSize = true;
+            this.lplayer2score.Location = new System.Drawing.Point(533, 562);
+            this.lplayer2score.Name = "lplayer2score";
+            this.lplayer2score.Size = new System.Drawing.Size(46, 17);
+            this.lplayer2score.TabIndex = 13;
+            this.lplayer2score.Text = "label3";
+            // 
+            // lplayer1
+            // 
+            this.lplayer1.AutoSize = true;
+            this.lplayer1.Location = new System.Drawing.Point(446, 533);
+            this.lplayer1.Name = "lplayer1";
+            this.lplayer1.Size = new System.Drawing.Size(46, 17);
+            this.lplayer1.TabIndex = 14;
+            this.lplayer1.Text = "label4";
+            // 
+            // lplayer2
+            // 
+            this.lplayer2.AutoSize = true;
+            this.lplayer2.Location = new System.Drawing.Point(446, 562);
+            this.lplayer2.Name = "lplayer2";
+            this.lplayer2.Size = new System.Drawing.Size(46, 17);
+            this.lplayer2.TabIndex = 15;
+            this.lplayer2.Text = "label5";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(446, 587);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(47, 17);
+            this.label6.TabIndex = 16;
+            this.label6.Text = "Draws";
+            // 
+            // ldraws
+            // 
+            this.ldraws.AutoSize = true;
+            this.ldraws.Location = new System.Drawing.Point(533, 587);
+            this.ldraws.Name = "ldraws";
+            this.ldraws.Size = new System.Drawing.Size(46, 17);
+            this.ldraws.TabIndex = 17;
+            this.ldraws.Text = "label7";
+            // 
+            // lTotal
+            // 
+            this.lTotal.AutoSize = true;
+            this.lTotal.Location = new System.Drawing.Point(261, 530);
+            this.lTotal.Name = "lTotal";
+            this.lTotal.Size = new System.Drawing.Size(46, 17);
+            this.lTotal.TabIndex = 18;
+            this.lTotal.Text = "label2";
             // 
             // pb22
             // 
@@ -175,69 +239,6 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // lplayer1score
-            // 
-            this.lplayer1score.AutoSize = true;
-            this.lplayer1score.Location = new System.Drawing.Point(533, 533);
-            this.lplayer1score.Name = "lplayer1score";
-            this.lplayer1score.Size = new System.Drawing.Size(46, 17);
-            this.lplayer1score.TabIndex = 12;
-            this.lplayer1score.Text = "label2";
-            // 
-            // lplayer2score
-            // 
-            this.lplayer2score.AutoSize = true;
-            this.lplayer2score.Location = new System.Drawing.Point(533, 562);
-            this.lplayer2score.Name = "lplayer2score";
-            this.lplayer2score.Size = new System.Drawing.Size(46, 17);
-            this.lplayer2score.TabIndex = 13;
-            this.lplayer2score.Text = "label3";
-            // 
-            // lplayer1
-            // 
-            this.lplayer1.AutoSize = true;
-            this.lplayer1.Location = new System.Drawing.Point(446, 533);
-            this.lplayer1.Name = "lplayer1";
-            this.lplayer1.Size = new System.Drawing.Size(46, 17);
-            this.lplayer1.TabIndex = 14;
-            this.lplayer1.Text = "label4";
-            // 
-            // lplayer2
-            // 
-            this.lplayer2.AutoSize = true;
-            this.lplayer2.Location = new System.Drawing.Point(446, 562);
-            this.lplayer2.Name = "lplayer2";
-            this.lplayer2.Size = new System.Drawing.Size(46, 17);
-            this.lplayer2.TabIndex = 15;
-            this.lplayer2.Text = "label5";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(446, 587);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(47, 17);
-            this.label6.TabIndex = 16;
-            this.label6.Text = "Draws";
-            // 
-            // ldraws
-            // 
-            this.ldraws.AutoSize = true;
-            this.ldraws.Location = new System.Drawing.Point(533, 587);
-            this.ldraws.Name = "ldraws";
-            this.ldraws.Size = new System.Drawing.Size(46, 17);
-            this.ldraws.TabIndex = 17;
-            this.ldraws.Text = "label7";
-            // 
-            // lTotal
-            // 
-            this.lTotal.AutoSize = true;
-            this.lTotal.Location = new System.Drawing.Point(343, 530);
-            this.lTotal.Name = "lTotal";
-            this.lTotal.Size = new System.Drawing.Size(46, 17);
-            this.lTotal.TabIndex = 18;
-            this.lTotal.Text = "label2";
-            // 
             // Game2p
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -262,8 +263,11 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pbTurn);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(610, 661);
+            this.MinimumSize = new System.Drawing.Size(610, 661);
             this.Name = "Game2p";
-            this.Text = "Game2p";
+            this.Text = "Player vs Player";
             ((System.ComponentModel.ISupportInitialize)(this.pb22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb20)).EndInit();

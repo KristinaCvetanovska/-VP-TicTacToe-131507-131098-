@@ -57,9 +57,5 @@ namespace TicTacToe
                 Close();
         }
 
-        private void tbPlayer_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

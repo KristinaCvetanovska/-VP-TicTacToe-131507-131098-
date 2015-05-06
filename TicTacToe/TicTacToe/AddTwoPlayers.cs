@@ -42,14 +42,5 @@ namespace TicTacToe
                 Close();
         }
 
-        private void tbPlayer1_Validating(object sender, CancelEventArgs e)
-        {
-
-        }
-
-        private void tbPlayer2_Validating(object sender, CancelEventArgs e)
-        {
-
-        }
     }
 }

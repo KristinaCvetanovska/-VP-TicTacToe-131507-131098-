@@ -37,3 +37,6 @@ D:\Goro\TicTacToe\TicTacToe\obj\Debug\TicTacToe.Game1p.resources
 D:\Goro\TicTacToe\TicTacToe\obj\Debug\TicTacToe.Game2p.resources
 D:\Goro\TicTacToe\TicTacToe\obj\Debug\TicTacToe.Properties.Resources.resources
 D:\Goro\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csproj.GenerateResource.Cache
+E:\Goro\TicTacToe\TicTacToe\bin\Debug\af-ZA\TicTacToe.resources.dll
+E:\Goro\TicTacToe\TicTacToe\obj\Debug\TicTacToe.AddTwoPlayers.af-ZA.resources
+E:\Goro\TicTacToe\TicTacToe\obj\Debug\af-ZA\TicTacToe.resources.dll
